@@ -6,3 +6,5 @@ Carshare::Application.config.session_store :cookie_store, key: '_carshare_sessio
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rails generate session_migration")
 # Carshare::Application.config.session_store :active_record_store
+
+# vim: ts=2 sw=2

@@ -49,3 +49,5 @@ module Carshare
     config.assets.version = '1.0'
   end
 end
+
+# vim: ts=2 sw=2

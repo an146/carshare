@@ -23,3 +23,5 @@ class DeviseCreateUsers < ActiveRecord::Migration
   end
 
 end
+
+# vim: ts=2 sw=2

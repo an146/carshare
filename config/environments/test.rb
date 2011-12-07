@@ -37,3 +37,5 @@ Carshare::Application.configure do
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
 end
+
+# vim: ts=2 sw=2

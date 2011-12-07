@@ -21,3 +21,5 @@ module ErrorMessagesHelper
 end
 
 ActionView::Helpers::FormBuilder.send(:include, ErrorMessagesHelper::FormBuilderAdditions)
+
+# vim: ts=2 sw=2

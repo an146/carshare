@@ -3,3 +3,5 @@ class HomeController < ApplicationController
   end
 
 end
+
+# vim: ts=2 sw=2

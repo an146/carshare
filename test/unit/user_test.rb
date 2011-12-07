@@ -61,3 +61,4 @@ class UserTest < ActiveSupport::TestCase
     end
 end
 
+# vim: ts=2 sw=2
