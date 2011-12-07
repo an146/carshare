@@ -24,6 +24,7 @@ a {
   /*color: #FFF;*/
   padding: 4px 100px;
   border-bottom: solid 5px #00395A;
+  text-align: right;
 }
 
 #container {
