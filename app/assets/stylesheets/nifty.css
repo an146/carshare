@@ -1,7 +1,8 @@
 body {
-  background-color: #4B7399;
+  background-color: #EEE;
   font-family: Verdana, Helvetica, Arial;
   font-size: 14px;
+  margin: 0px 0px;
 }
 
 a img {
@@ -16,6 +17,13 @@ a {
   clear: both;
   height: 0;
   overflow: hidden;
+}
+
+#nav_header {
+  background-color: #DDD;
+  /*color: #FFF;*/
+  padding: 4px 100px;
+  border-bottom: solid 5px #00395A;
 }
 
 #container {
