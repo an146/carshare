@@ -13,6 +13,9 @@ gem 'devise'
 # Auto-annotate models with schema
 gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 
+# Autocomplete inputs
+gem 'rails3-jquery-autocomplete'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
