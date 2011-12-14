@@ -1,7 +1,6 @@
 <%= form_tag("/search", :method => "get") do %>
   <%= label_tag :q, "Search for:" %>
-  <%= text_field_tag :q %>
-  <%= javascript_tag "$('input#q').autocomplete({source: ['123', '234', '345']})" %>
+  <%= text_field_tag :q, nil, :class => :geocomplete %>
   <%= submit_tag "Search" %>
 <% end %>
 
