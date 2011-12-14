@@ -1,0 +1,8 @@
+<%= form_tag("/search", :method => "get") do %>
+  <%= label_tag :q, "Search for:" %>
+  <%= text_field_tag :q %>
+  <%= javascript_tag "$('input#q').autocomplete({source: ['123', '234', '345']})" %>
+  <%= submit_tag "Search" %>
+<% end %>
+
+<!-- vim: set ts=2 sw=2: -->
