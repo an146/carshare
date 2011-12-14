@@ -8,3 +8,5 @@
 #   inflect.irregular 'person', 'people'
 #   inflect.uncountable %w( fish sheep )
 # end
+
+# vim: ts=2 sw=2

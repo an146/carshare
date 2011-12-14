@@ -10,3 +10,5 @@ class BrowsingTest < ActionDispatch::PerformanceTest
     get '/'
   end
 end
+
+# vim: ts=2 sw=2

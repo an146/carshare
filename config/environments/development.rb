@@ -28,3 +28,5 @@ Carshare::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 end
+
+# vim: ts=2 sw=2
