@@ -1,6 +1,10 @@
 <%= form_tag("/search", :method => "get") do %>
-  <%= label_tag :q, "Search for:" %>
-  <%= text_field_tag :q, nil, :class => :geocomplete %>
+  <%= label_tag :q1, "Yandex:" %>
+  <%= text_field_tag :q1, nil, :geocomplete => :yandex %> <br />
+
+  <%= label_tag :q2, "Google:" %>
+  <%= text_field_tag :q2, nil, :geocomplete => :google %> <br />
+
   <%= submit_tag "Search" %>
 <% end %>
 

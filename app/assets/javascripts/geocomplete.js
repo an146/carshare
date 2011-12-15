@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("input.geocomplete").autocomplete({
+  $('input[geocomplete="yandex"]').autocomplete({
     /*
     search: function(event, ui) {
       //console.log($(event.target).val())
