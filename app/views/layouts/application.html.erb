@@ -4,6 +4,7 @@
     <title><%= content_for?(:title) ? yield(:title) : "Carshare" %></title>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
+    <%= javascript_include_tag "http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false&language=ru" %>
     <%= csrf_meta_tag %>
     <%= yield(:head) %>
   </head>

@@ -1,9 +1,9 @@
 <%= form_tag("/search", :method => "get") do %>
   <%= label_tag :q1, "Yandex:" %>
-  <%= text_field_tag :q1, nil, :geocomplete => :yandex %> <br />
+  <%= text_field_tag :q1, nil, :geocomplete => :yandex, :style => "width: 1000px" %> <br />
 
   <%= label_tag :q2, "Google:" %>
-  <%= text_field_tag :q2, nil, :geocomplete => :google %> <br />
+  <%= text_field_tag :q2, nil, :geocomplete => :google, :style => "width: 1000px" %> <br />
 
   <%= submit_tag "Search" %>
 <% end %>
