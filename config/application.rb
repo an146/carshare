@@ -51,6 +51,9 @@ module Carshare
     # Disable generating empty assets
     config.generators.stylesheets = false
     config.generators.javascripts = false
+
+    # jquery-ui assets
+    config.assets.paths << Rails.root.join("vendor", "jquery-ui", "themes")
   end
 end
 
