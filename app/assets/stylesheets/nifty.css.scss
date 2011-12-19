@@ -20,11 +20,23 @@ a {
 }
 
 #nav_header {
+  height: 20px;
   background-color: #DDD;
   /*color: #FFF;*/
-  padding: 4px 100px;
+  padding: 4px 50px;
   border-bottom: solid 5px #00395A;
-  text-align: right;
+
+  .left {
+    float:left;
+    text-align: left;
+    width: 50%;
+  }
+
+  .right {
+    float:right;
+    text-align: right;
+    width: 50%;
+  }
 }
 
 #container {
