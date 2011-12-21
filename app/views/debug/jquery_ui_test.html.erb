@@ -1,6 +1,17 @@
 <% title "jquery-ui test" %>
 
-<div class="ui-widget">
-	<label for="tags">Tags: </label>
-	<input id="tags" />
-</div>
+<script>
+    $(function() {
+        $( "#autocomplete" ).autocomplete({source: ['123', '234', '345']});
+        $( "#datepicker" ).datepicker($.datepicker.regional['ru']);
+        $( "#datepicker" ).datepicker('option', $.datepicker.regional['ru']);
+    });
+</script>
+
+<div class="demo">
+    <label for="autocomplete">Autocomplete (123, 234, 345): </label>
+    <input id="autocomplete"><br />
+
+    <label for="datepicker">Date: </label>
+    <input id="datepicker">
+</div><!-- End demo -->

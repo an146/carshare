@@ -54,6 +54,7 @@ module Carshare
 
     # jquery-ui assets
     config.assets.paths << Rails.root.join("vendor", "jquery-ui", "themes")
+    config.assets.paths << Rails.root.join("vendor", "jquery-ui", "ui")
   end
 end
 
