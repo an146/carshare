@@ -6,6 +6,7 @@ Carshare::Application.routes.draw do
   if Rails.env.development?
     match "debug" => "debug#index"
     get "debug/index"
+    get "debug/jquery_ui_test"
   end
 
   # The priority is based upon order of creation:
