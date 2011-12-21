@@ -13,6 +13,9 @@ Carshare::Application.configure do
 
   # Compress JavaScripts and CSS
   config.assets.compress = true
+  if Rails.groups.map {|g| g.to_s} .include? "assets"
+    config.assets.js_compressor = Uglifier.new(:ascii_only => true)
+  end
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = false
