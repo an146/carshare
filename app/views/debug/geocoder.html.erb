@@ -1,0 +1,6 @@
+<% title "Geocoder" %>
+<%= form_tag nil, :method => :get do %>
+    <%= text_field_tag :q %><br/>
+    <%= submit_tag "Submit" %>
+<% end %>
+<%= @text %>
