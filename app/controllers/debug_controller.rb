@@ -1,3 +1,5 @@
+require 'geocoder'
+
 class DebugController < ApplicationController
     def index
     end
@@ -6,5 +8,10 @@ class DebugController < ApplicationController
     end
 
     def geocoder
+        if params[:q].nil?
+            @text = ""
+        else
+            @text = Geocoder.search(params[:q])
+        end
     end
 end

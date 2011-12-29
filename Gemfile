@@ -10,6 +10,9 @@ gem 'sqlite3'
 # Devise-based auth
 gem 'devise'
 
+# Geocoding
+gem 'geocoder'
+
 # Auto-annotate models with schema
 gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 
