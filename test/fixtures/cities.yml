@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: cities
+#
+#  id         :integer         not null, primary key
+#  name       :string(255)
+#  lat        :float
+#  lon        :float
+#  created_at :datetime
+#
+# Indexes
+#
+#  index_cities_on_name  (name) UNIQUE
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+city1:
+  name: City1
+  lat: 1.123
+  lon: 1.456
+
+city2:
+  name: MyString
+  lat: 2.123
+  lon: 2.456

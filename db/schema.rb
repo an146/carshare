@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111207002043) do
+ActiveRecord::Schema.define(:version => 20111229183605) do
+
+  create_table "cities", :force => true do |t|
+    t.string   "name"
+    t.float    "lat"
+    t.float    "lon"
+    t.datetime "created_at"
+  end
+
+  add_index "cities", ["name"], :name => "index_cities_on_name", :unique => true
 
   create_table "users", :force => true do |t|
     t.string   "email",                                 :default => "", :null => false
