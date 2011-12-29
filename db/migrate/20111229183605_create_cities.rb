@@ -11,3 +11,5 @@ class CreateCities < ActiveRecord::Migration
     add_index :cities, :name, :unique => true
   end
 end
+
+# vim: ts=2 sw=2

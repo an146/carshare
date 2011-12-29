@@ -15,3 +15,5 @@
 
 class City < ActiveRecord::Base
 end
+
+# vim: ts=2 sw=2

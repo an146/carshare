@@ -39,3 +39,5 @@ user2:
 #
 #two: {}
 #  column: value
+
+# vim: ts=2 sw=2

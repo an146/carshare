@@ -24,3 +24,5 @@ city2:
   name: MyString
   lat: 2.123
   lon: 2.456
+
+# vim: ts=2 sw=2

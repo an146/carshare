@@ -20,3 +20,5 @@ class CityTest < ActiveSupport::TestCase
   #   assert true
   # end
 end
+
+# vim: ts=2 sw=2
