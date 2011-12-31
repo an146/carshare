@@ -5,16 +5,15 @@ gem 'rails', '3.1.3'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+# MongoDB rules
+gem 'mongoid'
+gem 'bson_ext'
 
 # Devise-based auth
 gem 'devise'
 
 # Geocoding
 gem 'geocoder'
-
-# Auto-annotate models with schema
-gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 
 # Gems used only for assets and not required
 # in production environments by default.
