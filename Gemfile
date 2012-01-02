@@ -9,6 +9,9 @@ gem 'rails', '3.1.3'
 gem 'mongoid'
 gem 'bson_ext'
 
+# Heroku rules too
+gem 'heroku'
+
 # Devise-based auth
 gem 'devise'
 
