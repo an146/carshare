@@ -1,0 +1,25 @@
+defaults: &defaults
+  host: staff.mongohq.com
+  username: dev
+  password: dev
+
+development:
+  <<: *defaults
+  port: 10093
+  database: carshare-development
+
+test:
+  <<: *defaults
+  port: 10094
+  database: carshare-test
+
+# set these environment variables on your prod server
+production:
+  <<: *defaults
+  port: 10098
+  database: carshare-production
+  #host: <%= ENV['MONGOID_HOST'] %>
+  #port: <%= ENV['MONGOID_PORT'] %>
+  #username: <%= ENV['MONGOID_USERNAME'] %>
+  #password: <%= ENV['MONGOID_PASSWORD'] %>
+  #database: <%= ENV['MONGOID_DATABASE'] %>
