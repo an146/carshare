@@ -53,6 +53,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'mongoid-rspec'
 end
 
 # vim: ts=2 sw=2
