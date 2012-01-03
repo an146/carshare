@@ -51,4 +51,8 @@ group :test do
   gem 'turn', '~> 0.8.3', :require => false
 end
 
+group :development, :test do
+  gem 'rspec-rails'
+end
+
 # vim: ts=2 sw=2
