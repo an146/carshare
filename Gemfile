@@ -46,9 +46,9 @@ group :development do
   gem 'nifty-generators'
 end
 
-group :test do
-  # Pretty printed test output
-  gem 'turn', :require => false
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'mongoid-rspec', :require => false
 end
 
 # vim: ts=2 sw=2
